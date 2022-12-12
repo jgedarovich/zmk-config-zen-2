@@ -3,7 +3,7 @@
 default: .act
 
 .act:
-	rm -f dilly_nice_nano_v2.uf2
+	rm -f *.uf2
 	act -b
 
 build: .act
